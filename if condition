@@ -1,0 +1,9 @@
+a=float(input('enter a'))
+if a<20:
+  print('a is' a)
+  Print('hi')
+''' output:
+    enter a15.3
+    a is 15.3
+    hi'''
+     
