@@ -1,0 +1,11 @@
+n=int(input())
+if n%2==0:
+	if n==2 or n==4 or n>20:
+		print("Not Wierd")
+	else:
+		print("Weird")
+else:
+	print("Weird")
+''' output:
+   6
+   Weird'''
