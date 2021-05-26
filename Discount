@@ -1,0 +1,17 @@
+n=int(input())
+if n>=1000 && n<2000:
+	discount=n/10
+elif n>=2000 && n<3000:
+	discount=n/20
+elif n>=3000 && n<5000:
+	discount=n/30
+elif n>=5000:
+	discount=n/40
+else:
+	discount=0
+print("Discount :", discount)
+print("Bill Amount :", n-discount)
+''' output:
+    1200
+    Discount:120
+    Bill Amount: 1080'''
