@@ -1,0 +1,12 @@
+sum=0
+n=int(input('enter a number: '))
+while n>0:
+	rem=n%10
+	sum=(sum*10)+rem
+	n=int(n/10)#can also use n=n//10
+print("the reverse of number is :",n)
+'''
+Output:
+enter a number: 456
+the reverse of number is : 654
+'''
