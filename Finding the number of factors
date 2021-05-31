@@ -1,0 +1,14 @@
+n=int(input("enter a number "))
+fact=0
+i=1
+while i<=n:
+	if n%i==0:
+		fact+=1
+		print(i,end=',')
+	i+=1
+print('are the factors of ', n)	
+'''
+output:
+	enter a number 8
+	1,2,4,8, are the factors of 8
+	'''
