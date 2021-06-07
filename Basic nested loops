@@ -1,0 +1,12 @@
+si=int(input("enter i range:"))
+sj=int(input('enter j range:'))
+sk=int(input('enter k range:'))
+for i in range(si+1):
+	for j in range(sj+1):
+		for k in range(sk+1):
+			if i==j and j==k:
+				print(i,end=" ")
+			else:
+				print(' ',end=" ")
+	print('\n')
+			
