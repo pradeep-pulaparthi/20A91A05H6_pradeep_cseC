@@ -1,0 +1,19 @@
+x=int(input("enter x value"))
+y=int(input("enter y value"))
+if x>y:
+	temp=x
+else:
+	temp=y
+flag=1
+for i in range(1,temp,1):
+	if x%i==0 and y%i==0:
+		flag=i
+print(flag) 
+'''
+output:
+	enter x value12
+enter y value8
+4
+
+[Program finished]
+	'''
