@@ -6,6 +6,6 @@ if n%2==0:
 		print("Weird")
 else:
 	print("Weird")
-''' output:
+' output:
    6
-   Weird'''
+   Weird'
